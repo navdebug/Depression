@@ -30,9 +30,9 @@ def predict():
     print (output)
     
     if output == 0:
-        return render_template('Depression.html', prediction_text= 'Depression : No')
+        return render_template('Depression.html', prediction_text= 'Horay!! You are away from Depression')
     else:
-        return render_template('Depression.html', prediction_text= 'Depression : Yes')
+        return render_template('Depression.html', prediction_text= 'Be careful! You might suffer from depression :(')
 
 
 if __name__ == "__main__":
